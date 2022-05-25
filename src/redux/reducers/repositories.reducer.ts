@@ -1,5 +1,5 @@
-import { ActionType } from '../action-types';
-import { Action } from '../actions';
+import { ActionType } from "../action-types";
+import { Action } from "../actions";
 
 interface RepositoriesState {
   loading: boolean;
@@ -9,9 +9,9 @@ interface RepositoriesState {
 
 const initialState = {
   loading: false,
-  error:'',
-  data:[]
-}
+  error: null,
+  data: [],
+};
 
 const repositoriesReducer = (
   state: RepositoriesState = initialState,
