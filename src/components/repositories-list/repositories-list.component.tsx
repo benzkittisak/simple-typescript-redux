@@ -1,7 +1,7 @@
-const RespositoriesList = () => {
+const RepositoriesList = () => {
     return(
         <div></div>
     )
 }
 
-export default RespositoriesList;
+export default RepositoriesList;
